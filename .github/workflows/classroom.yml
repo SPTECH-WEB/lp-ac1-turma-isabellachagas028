@@ -19,7 +19,7 @@ jobs:
       with:
         test-name: teste
         setup-command: ''
-        command: mvn -B package --file pom.xml
+        command: mvn test
         timeout: 10
     - name: Autograding Reporter
       uses: classroom-resources/autograding-grading-reporter@v1
